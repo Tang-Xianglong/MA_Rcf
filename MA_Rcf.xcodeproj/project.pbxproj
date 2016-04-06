@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		94EC34571CAE15A200F6D513 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC34561CAE15A200F6D513 /* main.cpp */; };
+		94EC345F1CAE162600F6D513 /* Dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC345D1CAE162600F6D513 /* Dijkstra.cpp */; };
+		94EC34631CAE176900F6D513 /* memetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC34611CAE176900F6D513 /* memetic.cpp */; };
+		94EC34661CAE17D700F6D513 /* net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC34641CAE17D700F6D513 /* net.cpp */; };
+		94EC34691CAE183500F6D513 /* sequeue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC34671CAE183500F6D513 /* sequeue.cpp */; };
+		94EC346C1CAE1E7C00F6D513 /* experiments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94EC346A1CAE1E7C00F6D513 /* experiments.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,17 @@
 /* Begin PBXFileReference section */
 		94EC34531CAE15A200F6D513 /* MA_Rcf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MA_Rcf; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EC34561CAE15A200F6D513 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		94EC345D1CAE162600F6D513 /* Dijkstra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra.cpp; sourceTree = "<group>"; };
+		94EC345E1CAE162600F6D513 /* Dijkstra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dijkstra.hpp; sourceTree = "<group>"; };
+		94EC34601CAE171E00F6D513 /* gbdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gbdefine.h; sourceTree = "<group>"; };
+		94EC34611CAE176900F6D513 /* memetic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memetic.cpp; sourceTree = "<group>"; };
+		94EC34621CAE176900F6D513 /* memetic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = memetic.hpp; sourceTree = "<group>"; };
+		94EC34641CAE17D700F6D513 /* net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = net.cpp; sourceTree = "<group>"; };
+		94EC34651CAE17D700F6D513 /* net.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = net.hpp; sourceTree = "<group>"; };
+		94EC34671CAE183500F6D513 /* sequeue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sequeue.cpp; sourceTree = "<group>"; };
+		94EC34681CAE183500F6D513 /* sequeue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sequeue.hpp; sourceTree = "<group>"; };
+		94EC346A1CAE1E7C00F6D513 /* experiments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = experiments.cpp; sourceTree = "<group>"; };
+		94EC346B1CAE1E7C00F6D513 /* experiments.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = experiments.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				94EC34561CAE15A200F6D513 /* main.cpp */,
+				94EC345D1CAE162600F6D513 /* Dijkstra.cpp */,
+				94EC345E1CAE162600F6D513 /* Dijkstra.hpp */,
+				94EC34601CAE171E00F6D513 /* gbdefine.h */,
+				94EC34611CAE176900F6D513 /* memetic.cpp */,
+				94EC34621CAE176900F6D513 /* memetic.hpp */,
+				94EC34641CAE17D700F6D513 /* net.cpp */,
+				94EC34651CAE17D700F6D513 /* net.hpp */,
+				94EC34671CAE183500F6D513 /* sequeue.cpp */,
+				94EC34681CAE183500F6D513 /* sequeue.hpp */,
+				94EC346A1CAE1E7C00F6D513 /* experiments.cpp */,
+				94EC346B1CAE1E7C00F6D513 /* experiments.hpp */,
 			);
 			path = MA_Rcf;
 			sourceTree = "<group>";
@@ -118,7 +145,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EC346C1CAE1E7C00F6D513 /* experiments.cpp in Sources */,
 				94EC34571CAE15A200F6D513 /* main.cpp in Sources */,
+				94EC34631CAE176900F6D513 /* memetic.cpp in Sources */,
+				94EC345F1CAE162600F6D513 /* Dijkstra.cpp in Sources */,
+				94EC34661CAE17D700F6D513 /* net.cpp in Sources */,
+				94EC34691CAE183500F6D513 /* sequeue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
