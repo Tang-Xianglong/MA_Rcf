@@ -2,6 +2,9 @@
 //  net.hpp
 //  MA_Rcf
 //
+//  网络及其相关类的声明。
+//
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //

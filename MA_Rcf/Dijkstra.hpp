@@ -2,6 +2,10 @@
 //  Dijkstra.hpp
 //  MA_Rcf
 //
+//  Dijkstra算法的声明。
+//  Dijkstra算法是求一个节点到其他所有节点的最短路径的有效算法。
+//  算法复杂度是O(n^2).
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //

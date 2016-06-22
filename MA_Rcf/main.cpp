@@ -2,6 +2,9 @@
 //  main.cpp
 //  MA_Rcf
 //
+//  程序主入口程序。
+//  定义种群，读取网络
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //
@@ -25,6 +28,11 @@ int main(void)
         cout<<"Can not open data file!"<<endl;;
         return -1;
     }
+    
+    //计算相关系数
+    netdata[0].ReadNet(datafp);
+//    double f1, f2, f3, f4;
+    
     
     //开始优化
     for(int optimes = 0;optimes<FILECNT;optimes++)

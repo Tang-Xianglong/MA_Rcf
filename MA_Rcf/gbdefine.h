@@ -2,6 +2,8 @@
 //  gbdefine.h
 //  MA_Rcf
 //
+//  算法各种常量和参数的定义。
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //

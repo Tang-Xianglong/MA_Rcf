@@ -2,6 +2,8 @@
 //  Dijkstra.cpp
 //  MA_Rcf
 //
+//  Dijkstra算法的定义
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //
@@ -88,44 +90,44 @@ void Dijkstra(
 	int pre_vertex[N];
 	//将bool型图矩阵转换为int型
 	for (int i = 0; i < N; ++i)
- for(int j = 0; j < N; ++j)
- {
- if (i != j)
- {
- if (G[i][j] == false)
- {
- G[i][j] = INT_MAX;
- }
- else
- G[i][j] = 1;
- }
- else
- G[i][j] = 0;
- }
+        for(int j = 0; j < N; ++j)
+        {
+            if (i != j)
+            {
+                if (G[i][j] == false)
+                {
+                    G[i][j] = INT_MAX;
+                }
+                else
+                    G[i][j] = 1;
+            }
+            else
+                G[i][j] = 0;
+    }
  
 	//计算图G中所有最短路径
 	for (int i = 0; i < N; ++i)
 	{
- Dijkstra(N, i, G, distance, pre_vertex);
- for (int j = 0; j < N; ++j)
- {
- int index = j;
- stack<int> trace;
- while (pre_vertex[index] != -1)	//直到源节点
- {
- trace.push(pre_vertex[index]);
- index = pre_vertex[index];
- }
- 
- cout << "路径： ";
- while (!trace.empty())
- {
- cout << trace.top() << " -- ";
- trace.pop();
- }
- cout << j;
- cout << " 距离是： " << distance[j] << endl;
- }
+        Dijkstra(N, i, G, distance, pre_vertex);
+        for (int j = 0; j < N; ++j)
+        {
+            int index = j;
+            stack<int> trace;
+            while (pre_vertex[index] != -1)	//直到源节点
+            {
+                trace.push(pre_vertex[index]);
+                index = pre_vertex[index];
+            }
+
+            cout << "路径： ";
+            while (!trace.empty())
+            {
+                cout << trace.top() << " -- ";
+                trace.pop();
+            }
+            cout << j;
+            cout << " 距离是： " << distance[j] << endl;
+        }
 	}
  
 	return 0;

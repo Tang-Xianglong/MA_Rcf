@@ -2,6 +2,8 @@
 //  experiments.hpp
 //  MA_Rcf
 //
+//  项目试验的源代码。包括数据格式的转换，优化过程的处理。
+//
 //  Created by 唐向龙 on 16/4/1.
 //  Copyright © 2016年 唐向龙. All rights reserved.
 //
